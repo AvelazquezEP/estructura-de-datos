@@ -191,9 +191,6 @@ const phone_input_validation = (mobilePhone) => {
     }
 }
 
-// $(function ()){
-// }
-
 var form = $('#contact-form');
 
 // This its only a way to can 
