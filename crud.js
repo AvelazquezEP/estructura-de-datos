@@ -1,4 +1,4 @@
-class crud {
+class queue {
     constructor() {
         this.items = {};
         this.front = 0;
@@ -39,14 +39,14 @@ class crud {
         let result = '';
 
         for (let i = this.front; i < this.end; i++) {
-            result += this.items[i]+' ';
+            result += this.items[i] + ' ';
         }
 
         return result;
     }
 }
 
-const queue = new crud();
+const queue = new queue();
 
 queue.enqueue(1);
 queue.enqueue(2);
