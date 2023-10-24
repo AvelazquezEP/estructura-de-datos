@@ -10,7 +10,22 @@
 <body>
 
     <div id="app"></div>
-    <script src="dom.js"></script>
+
+    <!-- SCRIPT -->
+    <script type="text/jsx">
+        const app = document.getElementById("app");
+
+        function Header(){
+            return (
+                <h1>Develop Preview</h1>
+            )
+        }
+
+        ReactDOM.render(<Header />, app);
+    </script>
+
+    <!-- <script src="essentials.js"></script> -->
+    <!-- <script src="dom.js"></script> -->
     <!-- <script src="data_structure.js"></script> -->
     <!-- <script src="fibonacci.js"></script> -->
     <!-- <script src="crud.js"></script> -->
